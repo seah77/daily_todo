@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* 삭제 버튼 조정 */
+.delete {
+  margin-left: 10px; /* 버튼,텍스트 사이 간격 */
+  padding: 2px 3px;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 4px;
+  font-size: 0.7rem;
+}
+
+/* 사이트 배경 */
+body {
+  background-color: #ffebfb;
+}
+
+/* 리스트 네모 */
+#todo-list li {
+  border: 1px solid #000000; /*테두리*/
+  border-radius: 10px; /*테두리 둥글기*/
+  padding: 10px; /*안쪽 여백*/
+  margin-bottom: 8px; /*아래쪽 여백*/
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10px;
+  width: 200px;
+  max-width: 40%;
+  font-size: 13px;
+}
+
+/* 리스트 네모 공백 */
+#todo-list {
+  padding-left: 0;
+  margin-top: 0;
+}
+
+/* 폰트 */
+body {
+  font-family: 'Poor Story', sans-serif;
+}
+
+/* 무엇을 하실건가요?의 네모 */
+#todo-input {
+  height: 20px; 
+}
+
+#todo-input::placeholder {
+  font-size: 12px;
+  color: gray;
+}
+
+#todo-list {
+  margin-top: 15px;
+}
+
+/* 날짜 간격 */
+  h1 {
+    margin-bottom: 2px;  /* 제목, 날짜 사이 간격 줄이기 */
+  }
+
+  #today-date {
+    font-size: 15px;
+    color: black;
+    margin: 2px 0 6px 5px;  /* 위,오른쪽,아래,왼쪽 */
+  }
+
+  #todo-input {
+    margin-top: 0;  /* 날짜 아래 바로 붙도록 */
+  }
